@@ -19,6 +19,14 @@ $ npm install -g react-prop-table-cli
 
 ## Usage
 
+### ES5 Example
+
+See [ES5 source example](test/es5.jsx)
+
+### ES6 Example
+
+See [ES6 source example](test/es6.jsx)
+
 ```bash
 $ proptable
 

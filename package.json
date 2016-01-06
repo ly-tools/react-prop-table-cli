@@ -1,6 +1,6 @@
 {
   "name": "react-prop-table-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cli tool for react-prop-table to parse react source file and generate table ",
   "main": "index.js",
   "scripts": {

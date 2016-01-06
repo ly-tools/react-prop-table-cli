@@ -1,0 +1,39 @@
+{
+  "name": "react-prop-table-cli",
+  "version": "0.0.1",
+  "description": "Cli tool for react-prop-table to parse react source file and generate table ",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/_mocha --require should --reporter spec",
+    "test-cov": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require should",
+    "test-travis": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --require should"
+  },
+  "bin": {
+    "proptable": "./bin/proptable"
+  },
+  "author": "LingyuCoder",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "~0.4.0",
+    "mocha": "~2.3.3",
+    "mocha-sinon": "~1.1.4",
+    "should": "~7.1.1",
+    "sinon": "~1.17.2",
+    "uncolor": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LingyuCoder/react-prop-table-cli"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/LingyuCoder/react-prop-table-cli/issues"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "commander": "~2.9.0",
+    "react-prop-table": "^0.1.0"
+  }
+}
